@@ -32,6 +32,8 @@ So the static definition of service endpoins has a priority over DNS discovery.
 To statically configure service endpoints in your `application.conf` file consult the [Aggregate multiple discovery methods](https://doc.akka.io/docs/akka/2.5/discovery/index.html#discovery-method-aggregate-multiple-discovery-methods) documentation.
 
 To configure service discovery with DNS Lagom provides some configuration settings. The default settings are following:
+@[lagom-akka-discovery-reference-conf](../../../../../akka-service-locator/core/src/main/resources/reference.conf)
+
 ```hocon
   lagom.akka.discovery {
   
